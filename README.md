@@ -68,3 +68,9 @@ Checksums are compared case-insensitively. If they do not match, the file was co
 | v1.0.0 | xuturn-1.0.0.apk | C8A673906669C477DCA2D11AD410776505553A4C483B7DD2E391E9D189A80CEB | 1CF31B0E91163F4ED148C31C1A20A4115A45666A | 2026-10-11 |
 
 校验码不区分大小写。若不一致，说明文件已损坏或被篡改——请勿安装。
+
+## 隐私
+
+- 不采集任何数据：无统计埋点、无广告、无第三方追踪
+- 所有文件处理 100% 在设备本地完成；局域网互传仅与同一局域网内的设备通信
+- 完整隐私政策请见[官网](https://xuturn.vercel.app/index.html)
