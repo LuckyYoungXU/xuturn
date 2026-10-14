@@ -182,6 +182,9 @@ section { padding: 72px 0; }
 .dl-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
 .dl-icon { width: 46px; height: 46px; flex: none; display: flex; align-items: center; justify-content: center; }
 .dl-icon svg { width: 100%; height: 100%; }
+.dl-icon img { width: 100%; height: 100%; object-fit: contain; }
+.dl-icon.appteka { background: linear-gradient(135deg, #16a34a, #65a30d); border-radius: 10px; box-shadow: 0 1px 2px rgba(0,0,0,0.06); }
+.dl-icon.appteka svg { width: 26px; height: 26px; }
 .dl-info { flex: 1; min-width: 0; }
 .dl-info h3 { margin: 0; font-size: 16px; font-weight: 700; }
 .dl-info p { margin: 2px 0 0; font-size: 13.5px; color: var(--muted); }
