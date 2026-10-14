@@ -21,6 +21,10 @@ Get the latest APK from the [**Releases**](https://github.com/LuckyYoungXU/xutur
 
 > https://github.com/LuckyYoungXU/xuturn/releases/latest
 
+> https://appgallery.huawei.com/app/C119295679
+
+> https://appteka.store/user/566539
+
 Each release ships a signed APK. After downloading, verify its checksum against the table below before installing.
 
 ## Checksums
@@ -58,6 +62,10 @@ Checksums are compared case-insensitively. If they do not match, the file was co
 前往 [**Releases**](https://github.com/LuckyYoungXU/xuturn/releases/latest) 页面获取最新 APK：
 
 > https://github.com/LuckyYoungXU/xuturn/releases/latest
+
+> https://appgallery.huawei.com/app/C119295679
+
+> https://appteka.store/user/566539
 
 每个 Release 均附带已签名的 APK 安装包。下载后请先与下方校验码核对一致，再进行安装。
 
