@@ -69,7 +69,7 @@ img { max-width: 100%; display: block; }
 /* ---------- Hero (light, logo shown directly) ---------- */
 .hero {
   position: relative; overflow: hidden; text-align: center;
-  padding: 46px 0 42px;
+  padding: 38px 0 44px;
   background:
     radial-gradient(640px 320px at 12% -6%, rgba(37, 99, 235, 0.09), transparent 62%),
     radial-gradient(560px 300px at 88% 4%, rgba(14, 165, 233, 0.10), transparent 62%),
@@ -77,28 +77,11 @@ img { max-width: 100%; display: block; }
     linear-gradient(180deg, #FCFDFF 0%, #F5F8FD 100%);
 }
 .hero .container { position: relative; z-index: 1; }
-.hero-logo {
-  width: 78px; height: 78px; border-radius: 20px; object-fit: cover;
-  margin: 0 auto 16px;
-  box-shadow: var(--shadow-lg), 0 0 0 1px rgba(16, 24, 40, 0.06);
-}
-.badges { display: flex; gap: 10px; justify-content: center; margin: 0 0 14px; flex-wrap: wrap; }
-.badge {
-  display: inline-flex; align-items: center; gap: 7px;
-  font-size: 12.5px; font-weight: 600; padding: 5px 13px; border-radius: 999px;
-  background: rgba(255, 255, 255, 0.85); border: 1px solid var(--line); color: var(--ink-2);
-  box-shadow: var(--shadow-sm);
-}
-.badge::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--primary); }
 .hero h1 {
-  font-size: 42px; margin: 0 0 8px; font-weight: 800; letter-spacing: -1px; line-height: 1.15;
+  font-size: clamp(26px, 3.6vw, 38px); margin: 0 0 12px; font-weight: 800; letter-spacing: -0.5px; line-height: 1.2;
 }
-.hero .tagline {
-  font-size: 19px; font-weight: 700; margin: 0 auto 8px; max-width: 680px;
-  background: linear-gradient(92deg, #2563EB, #0EA5E9);
-  -webkit-background-clip: text; background-clip: text; color: transparent;
-}
-.hero .lead { font-size: 15.5px; color: var(--muted); max-width: 600px; margin: 0 auto 20px; }
+.hero h1 em { font-style: normal; color: var(--primary); }
+.hero .lead { font-size: 16px; color: var(--muted); max-width: 620px; margin: 0 auto 26px; }
 .cta-row { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 8px;
@@ -111,6 +94,20 @@ img { max-width: 100%; display: block; }
 .btn-primary:hover { background: var(--primary-700); }
 .btn-outline { background: #fff; color: var(--ink); border-color: var(--line); box-shadow: var(--shadow-sm); }
 .btn-outline:hover { border-color: #C6D2E8; }
+
+/* Hero store badges (Google Play / App Store)，样式与 XuTerm 官网一致 */
+.store-btn {
+  display: inline-flex; align-items: center; gap: 12px; padding: 10px 22px;
+  background: #0F172A; color: #fff; border-radius: 12px; text-decoration: none;
+  min-width: 200px; text-align: left; border: 1px solid #0F172A;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.store-btn:hover { text-decoration: none; transform: translateY(-2px); box-shadow: 0 10px 24px rgba(15, 23, 42, 0.28); }
+.store-btn svg { flex: none; }
+.store-btn small { display: block; font-size: 11px; font-weight: 500; opacity: .8; letter-spacing: .02em; }
+.store-btn strong { display: block; font-size: 17px; font-weight: 700; line-height: 1.25; }
+.store-btn.soon { opacity: .65; }
+.store-btn.soon:hover { transform: none; box-shadow: none; }
 
 /* ---------- Sections ---------- */
 section { padding: 72px 0; }
@@ -257,24 +254,23 @@ section { padding: 72px 0; }
 
 /* ---------- Sibling app pill (first-screen cross link) ---------- */
 .sibling-pill {
-  display: inline-flex; align-items: center; gap: 10px; margin: 0 auto 14px;
-  padding: 8px 18px 8px 10px; background: #fff; border: 1px solid var(--line);
-  border-radius: 999px; font-size: 13.5px; color: var(--muted);
+  display: inline-flex; align-items: center; justify-content: center; gap: 11px; margin: 0 auto 16px;
+  min-width: min(700px, 94vw);
+  padding: 10px 24px 10px 12px; background: #fff; border: 1px solid var(--line);
+  border-radius: 999px; font-size: 14.5px; color: var(--muted);
   box-shadow: var(--shadow-sm); transition: border-color .15s ease, box-shadow .15s ease;
 }
 .sibling-pill:hover { text-decoration: none; border-color: #C6D2E8; box-shadow: var(--shadow-md); }
-.sibling-pill img { width: 28px; height: 28px; border-radius: 8px; object-fit: cover; flex: none; }
+.sibling-pill img { width: 30px; height: 30px; border-radius: 8px; object-fit: cover; flex: none; }
 .sibling-pill strong { color: var(--ink); font-weight: 700; }
 .sibling-pill .arrow { color: var(--primary-700); font-weight: 700; margin-left: 2px; }
 .sibling-pill .tag { flex: none; font-size: 11px; font-weight: 700; color: var(--primary-700); background: var(--primary-50); padding: 2px 8px; border-radius: 999px; margin-right: 2px; }
-@media (max-width: 640px) { .sibling-pill .desc { display: none; } .sibling-pill { padding: 7px 14px 7px 9px; } }
+@media (max-width: 640px) { .sibling-pill .desc { display: none; } .sibling-pill { padding: 7px 14px 7px 9px; min-width: 0; } }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 768px) {
-  .hero { padding: 30px 0 26px; }
-  .hero-logo { width: 60px; height: 60px; border-radius: 16px; margin-bottom: 12px; }
-  .hero h1 { font-size: 30px; }
-  .hero .tagline { font-size: 16px; }
+  .hero { padding: 26px 0 30px; }
+  .hero h1 { font-size: 22px; }
   .hero .lead { font-size: 14px; margin-bottom: 16px; }
   .nav { gap: 12px; }
   .nav > a.hide-sm { display: none; }
