@@ -1,0 +1,24 @@
+# XuTurn
+
+> XuTurn is a free, privacy-first file toolbox for Android & iOS. All processing runs 100% on-device: image editing (crop, perspective, filters, mosaic, transparent background), batch image tools (compress, resize, format conversion, EXIF removal), a full PDF suite (images-to-PDF, PDF-to-images, merge, split, compress, encrypt, page management, watermarks, signing), encrypted file vault (AES-256, PIN + pattern unlock), ZIP tools, and high-speed LAN transfer between phone and PC via browser — no cloud uploads, no account, no tracking, no ads.
+
+## Pages
+
+- [Home](https://xuturn.vercel.app/index-en.html): Product overview, features and download links
+- [Home (Simplified Chinese)](https://xuturn.vercel.app/index.html): 简体中文产品页
+- [Home (Traditional Chinese)](https://xuturn.vercel.app/index-zh.html): 繁體中文產品頁
+- [Privacy Policy (English)](https://xuturn.vercel.app/privacy-en.html): Privacy policy
+- [Privacy Policy (Simplified Chinese)](https://xuturn.vercel.app/privacy.html): 隐私政策
+- [Privacy Policy (Traditional Chinese)](https://xuturn.vercel.app/privacy-zh.html): 隱私政策
+
+## Download
+
+Official download channels, all listed on the home page: Google Play, Huawei AppGallery, APKPure, Appteka and GitHub Releases. iOS App Store version coming soon.
+
+## Web Console
+
+When phone and PC are on the same Wi-Fi, the app serves a built-in web console (scan QR to connect, no client install): browse and batch-download files, zip entire folders, and run the same image/PDF tools from the PC browser. The phone provides the computing power; the browser is the interface.
+
+## Privacy Model
+
+Every feature works offline in airplane mode. Files never leave the device unless the user explicitly sends them over the local network. No analytics SDKs, no accounts, no cloud storage.
