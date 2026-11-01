@@ -146,6 +146,8 @@ section { padding: 72px 0; }
 .ic.c5 { background: #FDE8EC; color: #E11D48; }
 .ic.c6 { background: #E0F2FE; color: #0284C7; }
 .ic.c7 { background: #E9EDEF; color: #334155; }
+.ic.c8 { background: #E7F6EC; color: #059669; }
+.ic.c9 { background: #EEF2FF; color: #4F46E5; }
 
 /* ---------- Screenshots (real captures) ---------- */
 .shots-section { background: var(--bg); }
