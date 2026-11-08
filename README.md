@@ -8,7 +8,7 @@ A fully local-first file toolbox for Android & iOS — images, PDFs, archives, Q
 ## Features
 
 - **Image tools** — batch compress, convert formats, batch resize, images to PDF, EXIF-aware editing
-- **PDF tools** — merge, split, page reordering/rotation, watermark, AES-256 encryption & decryption, Searchable PDF
+- **PDF tools** — merge, split, page reordering/rotation, watermark, AES-256 encryption & decryption, Searchable
 - **Archive tools** — create and extract ZIP archives
 - **QR tools** — generate and scan QR codes
 - **Private vault** — PIN + gesture unlock, sandbox-isolated encrypted storage for sensitive files
@@ -19,13 +19,19 @@ A fully local-first file toolbox for Android & iOS — images, PDFs, archives, Q
 
 Get the latest APK from the [**Releases**](https://github.com/LuckyYoungXU/xuturn/releases/latest) page:
 
-> https://github.com/LuckyYoungXU/xuturn/releases/latest
+> Official Website: https://xuturn.vercel.app
 
-> https://appgallery.huawei.com/app/C119295679
+> Google Play: https://play.google.com/store/apps/details?id=com.yongqing.xuturn
 
-> https://apkpure.com/p/com.yongqing.xuturn
+> GitHub Releases: https://github.com/LuckyYoungXU/xuturn/releases/latest
 
-> https://appteka.store/user/566539
+> Huawei AppGallery: https://appgallery.huawei.com/app/C119295679
+
+> APKPure: https://apkpure.com/p/com.yongqing.xuturn
+
+> Uptodown: https://xuturn.en.uptodown.com/android
+
+> Appteka: https://appteka.store/user/566539
 
 Each release ships a signed APK. After downloading, verify its checksum against the table below before installing.
 
@@ -34,10 +40,18 @@ Each release ships a signed APK. After downloading, verify its checksum against 
 | Version | File | SHA-256 | SHA-1 | Date |
 | ------- | ---- | ------- | ----- | ---- |
 | v1.0.4 | xuturn-1.0.4.apk | 2EF5F06ECA6E175BABBAC76A616FE49C5AE1A25C83A48AA7013B56071AE9A15E | 2D2A9514259FC3C906F9E52DC0A164BB40EE4E72 | 2026-11-08 |
+
+<details>
+<summary>Older versions</summary>
+
+| Version | File | SHA-256 | SHA-1 | Date |
+| ------- | ---- | ------- | ----- | ---- |
 | v1.0.3 | xuturn-1.0.3.apk | EB8FB4F74AAEEC91E6808E3667639A1657E7F950BAA25086F9D944E5FF1E2F3F | 0DF13CBAB48C0C3289D29B798F0FAB6320D3DB57 | 2026-11-01 |
 | v1.0.2 | xuturn-1.0.2.apk | F9AC3B55EE1EDE069B406EEADEC9D1341B80BE9BB7441EA3B523B0ADC4B1CF98 | 13E8FF84BF0AEC891E672382D9CBBEC223286B72 | 2026-10-22 |
 | v1.0.1 | xuturn-1.0.1.apk | DD79A83324EFB84FDC277B058F828D567154D59991A7214C7FA9B3CC15C19396 | 53EB554B83E7B2D8193FFD71573D37477D59CD71 | 2026-10-20 |
 | v1.0.0 | xuturn-1.0.0.apk | C8A673906669C477DCA2D11AD410776505553A4C483B7DD2E391E9D189A80CEB | 1CF31B0E91163F4ED148C31C1A20A4115A45666A | 2026-10-11 |
+
+</details>
 
 Checksums are compared case-insensitively. If they do not match, the file was corrupted or tampered with — do not install it.
 
@@ -67,13 +81,19 @@ Checksums are compared case-insensitively. If they do not match, the file was co
 
 前往 [**Releases**](https://github.com/LuckyYoungXU/xuturn/releases/latest) 页面获取最新 APK：
 
-> https://github.com/LuckyYoungXU/xuturn/releases/latest
+> Official Website: https://xuturn.vercel.app
 
-> https://appgallery.huawei.com/app/C119295679
+> Google Play: https://play.google.com/store/apps/details?id=com.yongqing.xuturn
 
-> https://apkpure.com/p/com.yongqing.xuturn
+> GitHub Releases: https://github.com/LuckyYoungXU/xuturn/releases/latest
 
-> https://appteka.store/user/566539
+> Huawei AppGallery: https://appgallery.huawei.com/app/C119295679
+
+> APKPure: https://apkpure.com/p/com.yongqing.xuturn
+
+> Uptodown: https://xuturn.en.uptodown.com/android
+
+> Appteka: https://appteka.store/user/566539
 
 每个 Release 均附带已签名的 APK 安装包。下载后请先与下方校验码核对一致，再进行安装。
 
@@ -82,10 +102,18 @@ Checksums are compared case-insensitively. If they do not match, the file was co
 | 版本 | 文件 | SHA-256 | SHA-1 | 日期 |
 | ---- | ---- | ------- | ----- | ---- |
 | v1.0.4 | xuturn-1.0.4.apk | 2EF5F06ECA6E175BABBAC76A616FE49C5AE1A25C83A48AA7013B56071AE9A15E | 2D2A9514259FC3C906F9E52DC0A164BB40EE4E72 | 2026-11-08 |
+
+<details>
+<summary>历史版本</summary>
+
+| 版本 | 文件 | SHA-256 | SHA-1 | 日期 |
+| ---- | ---- | ------- | ----- | ---- |
 | v1.0.3 | xuturn-1.0.3.apk | EB8FB4F74AAEEC91E6808E3667639A1657E7F950BAA25086F9D944E5FF1E2F3F | 0DF13CBAB48C0C3289D29B798F0FAB6320D3DB57 | 2026-11-01 |
 | v1.0.2 | xuturn-1.0.2.apk | F9AC3B55EE1EDE069B406EEADEC9D1341B80BE9BB7441EA3B523B0ADC4B1CF98 | 13E8FF84BF0AEC891E672382D9CBBEC223286B72 | 2026-10-22 |
 | v1.0.1 | xuturn-1.0.1.apk | DD79A83324EFB84FDC277B058F828D567154D59991A7214C7FA9B3CC15C19396 | 53EB554B83E7B2D8193FFD71573D37477D59CD71 | 2026-10-20 |
 | v1.0.0 | xuturn-1.0.0.apk | C8A673906669C477DCA2D11AD410776505553A4C483B7DD2E391E9D189A80CEB | 1CF31B0E91163F4ED148C31C1A20A4115A45666A | 2026-10-11 |
+
+</details>
 
 校验码不区分大小写。若不一致，说明文件已损坏或被篡改——请勿安装。
 
