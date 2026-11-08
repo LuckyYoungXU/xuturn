@@ -8,7 +8,7 @@ A fully local-first file toolbox for Android & iOS — images, PDFs, archives, Q
 ## Features
 
 - **Image tools** — batch compress, convert formats, batch resize, images to PDF, EXIF-aware editing
-- **PDF tools** — merge, split, page reordering/rotation, watermark, AES-256 encryption & decryption
+- **PDF tools** — merge, split, page reordering/rotation, watermark, AES-256 encryption & decryption, Searchable PDF
 - **Archive tools** — create and extract ZIP archives
 - **QR tools** — generate and scan QR codes
 - **Private vault** — PIN + gesture unlock, sandbox-isolated encrypted storage for sensitive files
@@ -33,6 +33,7 @@ Each release ships a signed APK. After downloading, verify its checksum against 
 
 | Version | File | SHA-256 | SHA-1 | Date |
 | ------- | ---- | ------- | ----- | ---- |
+| v1.0.4 | xuturn-1.0.4.apk | 2EF5F06ECA6E175BABBAC76A616FE49C5AE1A25C83A48AA7013B56071AE9A15E | 2D2A9514259FC3C906F9E52DC0A164BB40EE4E72 | 2026-11-08 |
 | v1.0.3 | xuturn-1.0.3.apk | EB8FB4F74AAEEC91E6808E3667639A1657E7F950BAA25086F9D944E5FF1E2F3F | 0DF13CBAB48C0C3289D29B798F0FAB6320D3DB57 | 2026-11-01 |
 | v1.0.2 | xuturn-1.0.2.apk | F9AC3B55EE1EDE069B406EEADEC9D1341B80BE9BB7441EA3B523B0ADC4B1CF98 | 13E8FF84BF0AEC891E672382D9CBBEC223286B72 | 2026-10-22 |
 | v1.0.1 | xuturn-1.0.1.apk | DD79A83324EFB84FDC277B058F828D567154D59991A7214C7FA9B3CC15C19396 | 53EB554B83E7B2D8193FFD71573D37477D59CD71 | 2026-10-20 |
@@ -55,7 +56,7 @@ Checksums are compared case-insensitively. If they do not match, the file was co
 ## 功能特性
 
 - **图片工具** —— 批量压缩、格式转换、批量改尺寸、图片转 PDF、EXIF 自适应的图片编辑
-- **PDF 工具** —— 合并、拆分、页面重排/旋转、水印、AES-256 加密与解密
+- **PDF 工具** —— 合并、拆分、页面重排/旋转、水印、AES-256 加密与解密、可搜索化
 - **压缩工具** —— 创建与解压 ZIP 压缩包
 - **二维码工具** —— 生成与扫描二维码
 - **私密保险箱** —— PIN + 手势解锁，沙盒隔离的加密存储，保管敏感文件
@@ -80,6 +81,7 @@ Checksums are compared case-insensitively. If they do not match, the file was co
 
 | 版本 | 文件 | SHA-256 | SHA-1 | 日期 |
 | ---- | ---- | ------- | ----- | ---- |
+| v1.0.4 | xuturn-1.0.4.apk | 2EF5F06ECA6E175BABBAC76A616FE49C5AE1A25C83A48AA7013B56071AE9A15E | 2D2A9514259FC3C906F9E52DC0A164BB40EE4E72 | 2026-11-08 |
 | v1.0.3 | xuturn-1.0.3.apk | EB8FB4F74AAEEC91E6808E3667639A1657E7F950BAA25086F9D944E5FF1E2F3F | 0DF13CBAB48C0C3289D29B798F0FAB6320D3DB57 | 2026-11-01 |
 | v1.0.2 | xuturn-1.0.2.apk | F9AC3B55EE1EDE069B406EEADEC9D1341B80BE9BB7441EA3B523B0ADC4B1CF98 | 13E8FF84BF0AEC891E672382D9CBBEC223286B72 | 2026-10-22 |
 | v1.0.1 | xuturn-1.0.1.apk | DD79A83324EFB84FDC277B058F828D567154D59991A7214C7FA9B3CC15C19396 | 53EB554B83E7B2D8193FFD71573D37477D59CD71 | 2026-10-20 |
